@@ -1,0 +1,151 @@
+/**
+     You can load css reset of normalize for the start
+
+     Colors to use
+     #B2D6FF   Medium blue 
+     #F09A9D   Red 
+     #F5CF8E  Yellow 
+     #D6E9FE  Light blue
+
+    --primary-color: #b2d6ff;
+    --secondary-color: #d6e9fe;
+    --accent-color-1: #f09a9d;
+    --accent-color-1-dark: #f07e82;
+    --accent-color-2: #f5cf8e;
+    --accent-white: #fff;
+    --accent-gray: rgb(240, 240, 240);
+    --accent-gray-light: #fcfcfc;
+
+     For fonts to use  pair any font https://www.fontpair.co/all
+     Only Two Fonts
+**/
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ :root{
+    /** Declare variables over here */
+ }
+ /** Default font size  Use rem to define 
+    font sizes and em to define padding and margins*/
+ body {
+    font-size: 16px;
+
+ }
+ h1,h2,h3,h4,h5,h6 {
+
+ }
+ p {
+
+ }
+
+ img {
+
+ }
+
+/** Remove default bullet style */
+ ul li {
+
+ }
+ header {
+
+ }
+ footer {
+
+}
+
+/** 
+    Layouts
+**/
+
+/** Centerize the container using margin and with. Container size is 80% ***/
+.container {
+
+}
+
+
+.logo {
+
+}
+
+/** Logo: Use css to make the logo 100px 100px */
+.logo img {
+
+}
+.logo h1 {
+
+}
+
+/** User FLoat to make the layout 60% for content, 40% for Sidebar */
+.content {
+
+}
+.sidebar {
+
+}
+
+.sidebar .news {
+
+}
+
+.sidebar .news  h3{
+    
+}
+.menu {
+
+}
+.menu ul {
+
+}
+.menu ul li {
+
+}
+.menu ul li a {
+
+}
+
+/** Footer menu styleing **/
+
+.footer-menu {
+
+
+}
+
+/** Helper Utilties **/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  
+  /* Mark Hadley's fix for IE Mac */
+  .clearfix {
+    display: inline-block;
+  }
+  
+  /* Hides from IE Mac \*/
+  * html .clearfix {
+    height: 1%;
+  }
+  .clearfix {
+    display: block;
+  }
+
+  
+.btn {
+
+}
+
+.btn-primary {
+    /** color  medium blue **/
+}
+.btn-secondary {
+    /** colory light blue **/
+}
+.text-center {
+    /** centerize the text **/
+}
